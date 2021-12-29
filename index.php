@@ -20,4 +20,5 @@ if (array_key_exists($request, $links)) {
     return;
 }
 
-header("HTTP/1.1 404 Not Found");
+http_response_code(404);
+include("error/404.php");
