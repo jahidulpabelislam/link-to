@@ -1,3 +1,6 @@
+# Custom error pages
+ErrorDocument 404 /error/404.php
+
 # Block user from viewing list of files in a directory
 Options -Indexes
 IndexIgnore *
