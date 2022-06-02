@@ -1,11 +1,12 @@
 <?php
 
+$domain = "jahidulpabelislam.com";
 $defaultUsername = "jahidulpabelislam";
 
 $links = [
-    "portfolio" => "https://jahidulpabelislam.com",
-    "links" => "https://links.jahidulpabelislam.com",
-    "socials" => "https://socials.jahidulpabelislam.com",
+    "portfolio" => "https://$domain",
+    "links" => "https://links.$domain",
+    "socials" => "https://socials.$domain",
     "linkedin" => "https://www.linkedin.com/in/$defaultUsername/",
     "github" => "https://github.com/$defaultUsername/",
     "instagram" => "https://instagram.com/$defaultUsername/",
