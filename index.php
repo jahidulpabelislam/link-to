@@ -4,7 +4,8 @@ $domain = "jahidulpabelislam.com";
 $defaultUsername = "jahidulpabelislam";
 
 $links = [
-    "portfolio" => "https://$domain",
+    "site" => "https://$domain",
+    "portfolio" => "https://$domain/portfolio",
     "links" => "https://links.$domain",
     "socials" => "https://socials.$domain",
     "linkedin" => "https://www.linkedin.com/in/$defaultUsername/",
@@ -13,8 +14,6 @@ $links = [
     "npm" => "https://www.npmjs.com/~$defaultUsername",
     "packagist" => "https://packagist.org/users/$defaultUsername/packages/",
 ];
-
-$links["site"] = $links["portfolio"];
 
 $request = trim($_SERVER["REQUEST_URI"], "/");
 
