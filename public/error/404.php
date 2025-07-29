@@ -22,7 +22,7 @@ $site = \JPI\Site::get();
 
         <?php $site->renderFavicons(); ?>
 
-        <link href="<?php echo $site::asset("/assets/css/error.min.css"); ?>" rel="stylesheet" type="text/css" media="all" title="style" />
+        <link href="<?php echo $site::asset("/assets/css/error.css"); ?>" rel="stylesheet" type="text/css" media="all" title="style" />
     </head>
 
     <body>
@@ -30,6 +30,6 @@ $site = \JPI\Site::get();
             <p class="error">Hmm... Couldn't Find What You Are Looking For, But You Can Find All My Links <a href="https://links.jahidulpabelislam.com/">Here</a>.</p>
         </main>
 
-        <script src="<?php echo $site::asset("/assets/js/error.min.js"); ?>" type="application/javascript"></script>
+        <script src="<?php echo $site::asset("/assets/js/error.js"); ?>" type="application/javascript"></script>
     </body>
 </html>
