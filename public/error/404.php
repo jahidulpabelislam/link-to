@@ -1,4 +1,7 @@
 <?php
+
+const PUBLIC_ROOT = __DIR__ . "/..";
+
 include_once(__DIR__ . "/../../vendor/autoload.php");
 
 $site = \JPI\Site::get();
