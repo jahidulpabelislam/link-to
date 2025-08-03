@@ -6,7 +6,7 @@ include_once(__DIR__ . "/../vendor/autoload.php");
 
 $app = \JPI\App::get();
 
-$domain =  $app::DOMAINS[$app->getEnvironment()];  "jahidulpabelislam.com";
+$domain =  $app::DOMAINS[$app->getEnvironment()];
 $defaultUsername = "jahidulpabelislam";
 
 $links = [
