@@ -1,6 +1,12 @@
 <?php
 
-$domain = "jahidulpabelislam.com";
+declare(strict_types=1);
+
+include_once(__DIR__ . "/../vendor/autoload.php");
+
+$app = \JPI\App::get();
+
+$domain =  $app::DOMAINS[$app->getEnvironment()];  "jahidulpabelislam.com";
 $defaultUsername = "jahidulpabelislam";
 
 $links = [
